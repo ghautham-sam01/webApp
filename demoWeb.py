@@ -8,7 +8,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route('/contact')
+@app.route('/contact.html')
 def contact():
     return render_template("contact.html")
 
