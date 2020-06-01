@@ -36,9 +36,8 @@
         <header id="headers4-block" class="editContent">
             <div class="container">
                 <div class="d-grid nav-mobile-block header-align">
-                    <div class="logo">
-                        <a class="brand-logo editContent" href="index.html" style="outline: none; cursor: inherit; outline-offset: -2px;"><p><br></p></a>
-                        <!-- if logo is image enable this   
+                <div class="d-grid nav-mobile-block header-align">
+                    <div class="logo"><a class="brand-logo editContent" href="{{ url_for('index') }}">Ghautham Sambabu</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<!-- if logo is image enable this
                     <a class="brand-logo" href="#index.html">
                         <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
                     </a> -->
@@ -49,14 +48,10 @@
                         <label for="drop" class="toggle"><span class="fa fa-bars" style="outline: none; cursor: inherit;"></span></label>
                         <input type="checkbox" id="drop">
                         <ul class="menu">
-                            <li class="propClone"><a href="index.html" style="outline: none; outline-offset: -2px; cursor: inherit; color: rgb(255, 255, 255); font-weight: 400; text-transform: capitalize;" src="bundles/images/g3.jpg">Home</a></li>
-                            <li class="propClone"><a href="about.html" style="outline: none; outline-offset: -2px; cursor: inherit;">About</a></li>
-                            <li class="propClone"><a href="services.html">Services</a></li>
-                           
-                            
-                            
-                            <li class="propClone"><a href="contact.html">Contact</a></li>
-                           
+                            <li class="propClone"><a href="{{ url_for('index') }}" style="color: rgb(255, 255, 255); font-weight: 400; text-transform: capitalize;" src="bundles/images/g3.jpg">Home</a></li>
+                            <li class="propClone"><a href="{{ url_for('about') }}">About</a></li>
+                            <li class="propClone"><a href="{{ url_for('contact') }}" style="outline: none; cursor: inherit;">Contact</a></li>
+
                         </ul>
                         
                     </nav>
