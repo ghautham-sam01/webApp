@@ -10519,7 +10519,7 @@ h4.sub-title {
   .w3l-feature-3 span.number img {
     vertical-align: -webkit-baseline-middle; }
   .w3l-feature-3 .top-bottom {
-    background: url("../images/forest.jpg") no-repeat center;
+    background: url(../images/3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -10962,7 +10962,7 @@ body:after {
     font-size: 12px; } }
 
 .services-12 .form-12-content {
-  background: url("../images/desert.jpg") no-repeat center;
+  background: url(../images/2.jpg) no-repeat center;
   background-size: cover;
   padding: 5rem 0px;
   background-attachment: fixed;
